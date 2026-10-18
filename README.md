@@ -1,6 +1,6 @@
 # Cloudflare 优选IP API（仅IPV4）
 
-## 提供自动更新的 Cloudflare 优选 IP API，服务于 Cloudflare 免费代理搭建方案，优质 IP 即为优质节点。[频道](https://t.me/liqunchannel) 置顶公益订阅，限时体验 API 效果。
+## 提供自动更新的 Cloudflare 优选 IP API，服务于 Cloudflare 免费代理搭建方案，优质 IP 即为优质节点。[频道](https://t.me/liqunchannel) 置顶公益订阅，限时体验 API 效果
 
 <p align="center">
 <img src="https://badgen.net/github/stars/LancelotRar/best-cf-ips" align="absmiddle" style="height:25px"> <img src="https://badgen.net/github/forks/LancelotRar/best-cf-ips" align="absmiddle" style="height:25px"> <a href="https://t.me/liqunchannel"><img src="https://badgen.net/badge/利群便利店/频道" align="absmiddle" style="height:25px"></a>
@@ -9,7 +9,7 @@
 > [!CAUTION]   
 > **破坏性更新历史，需尽快更新您的 API 链接**：    
 > 2026.9.5  
-> - 优选域名 API 已迁移至新仓库 [**best-cf-domains**](https://github.com/LancelotRar/best-cf-domains)。  
+> - 优选域名 API 已迁移至新仓库 [**best-cf-domains**](https://github.com/LancelotRar/best-cf-domains)
 >
 > 2026.9.11  
 > - 聚合 API 文件名变更为：best-cf-ip-collected.txt   
@@ -22,7 +22,7 @@
 > - https://chat.b.ai/chat?invite_code=65TF6G
 > - https://y-api.bestvirtualgoods.com/i/7N5KJG8Y
 >  
-> **Workbuddy 国际版，注册即得 100 邀请积分和 250 新人积分**。
+> **Workbuddy 国际版，注册即得 100 邀请积分和 250 新人积分**
 > - https://workbuddy.ai/invite?code=7CQMESPP
 
 ## 项目说明
@@ -35,16 +35,16 @@
 
 ## 接入指南
 - **Cmliu/edgetunnel**
-    - 复制粘贴 API 地址至“自定义优选”框中（无需点开下方“订阅接口”按钮）
-    - 支持填入多个 API 地址
+    - 复制粘贴 API 链接至“自定义优选”框中（无需点开下方“订阅接口”按钮）
+    - **<ins>支持填入多个 API 链接</ins>**
     - 保存
 <p align="center">
   <img src="src/IN-EDT.png" alt="效果图">
 </p>
 
 - **byJoey/cfnew**
-    - 复制粘贴 API 地址至“优选IP来源URL”框中
-    - **<ins>仅支持填入单个 API 地址</ins>**
+    - 复制粘贴 API 链接至“优选 IP 来源 URL” 框中
+    - **<ins>仅支持填入单个 API 链接</ins>**
     - 保存
 <p align="center">
   <img src="src/IN-CFNEW.png" alt="效果图">
@@ -52,9 +52,9 @@
 
 ## 项目初衷
 
-- 为优选 IP 建立**国家区域、旗帜**标识，有助于按国家区域筛选 CF 节点。如使用 Mihomo 代理客户端，可按节点的国家区域建立策略组。并使用 Url-test 策略，仅在该区域内变动节点IP，缓解 CF 节点 IP 变动带来的负面影响。如 Telegram 新账号养号期，节点IP变动频繁、区域位置变动过大，或将引发账号风控。其它代理客户端同理，需自行设置。对其它有IP风控策略的互联网服务，亦有帮助。
-- 优选 IP 数量不是越多越好，故另提供**按数量分档**的 API 满足多样化的需求。
-- [**自用 Mihomo 配置文件模板**](https://github.com/LancelotRar/free-subs/blob/main/src/liqun_example.yaml)（仅模板，非订阅，已预设主流国家区域分组），杜绝 DNS 泄露，可 fork 后自行修改，亦可直接使用。
+- 为优选 IP 建立**国家区域、旗帜**标识，有助于按国家区域筛选 CF 节点。如使用 Mihomo 代理客户端，可按节点的国家区域建立策略组。并使用 Url-test 策略，仅在该区域内变动节点IP，缓解 CF 节点 IP 变动带来的负面影响。如 Telegram 新账号养号期，节点IP变动频繁、区域位置变动过大，或将引发账号风控。其它代理客户端同理，需自行设置。对其它有IP风控策略的互联网服务，亦有帮助
+- 优选 IP 数量不是越多越好，故另提供**按数量分档**的 API 满足多样化的需求
+- [**自用 Mihomo 配置文件模板**](https://github.com/LancelotRar/free-subs/blob/main/src/liqun_example.yaml)（仅模板，非订阅，已预设主流国家区域分组），杜绝 DNS 泄露，可 fork 后自行修改，亦可直接使用
 
 ## API 详情
 
@@ -72,9 +72,9 @@
 ···
 ```
 
-- IP 更新时间以实际结果为准，在 API 内容**第一行**有明确标注。
+- 优选 IP 更新时间以实际结果为准，在 API 内容**第一行**有明确标注
 
-- IP 经 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel) 转换后将成为代理节点，再经代理客户端解析，节点名称将显示**国家代码**以及**国旗**。点击图片查看清晰大图。
+- 转换后的优选 IP 将成为代理节点，再经代理客户端解析，节点名称将显示**国家代码**以及**国旗**。点击图片查看清晰大图
 
 <p align="center">
   <img src="src/phone1.png" alt="效果图" width="150" height="240"><img src="src/phone2.png" alt="效果图" width="150" height="240"><img src="src/phone3.png" alt="效果图" width="150" height="240"><img src="src/PC.png" alt="效果图" width="430" height="240">
@@ -82,8 +82,8 @@
 
 ### 聚合 API
 
-- **每 6 小时更新**。
-- 为多个公开的 Cloudflare 优选 IP 项目进行**IP 聚合&去重&加国家区域标注&加旗帜**，数据来源：[Cmliu优选](https://cf.090227.xyz)，[UOUIN](https://api.uouin.com/cloudflare.html)，[IPDB](https://ipdb.api.030101.xyz)，[VPS789](https://vps789.com/cfip/?remarks=ip)，[Senflare](https://saas.seeck.cn)，表示感谢！
+- **每 6 小时更新**
+- 为多个公开的 Cloudflare 优选 IP 项目进行**IP 聚合&去重&加国家区域标注&加旗帜**，数据来源：[Cmliu优选](https://cf.090227.xyz)，[UOUIN](https://api.uouin.com/cloudflare.html)，[IPDB](https://ipdb.api.030101.xyz)，[VPS789](https://vps789.com/cfip/?remarks=ip)，[Senflare](https://saas.seeck.cn)，表示感谢
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-collected.txt
@@ -91,37 +91,37 @@ https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-collec
 
 ### 独立 API
 
-- **每 6 小时更新，按延迟排序。**
-- **国家区域、旗帜标注。**
-- **选任一档即可，多选重复，没有必要。**  
+- **每 6 小时更新，按延迟排序**
+- **国家区域、旗帜标注**
+- **选任一档即可，多选重复，没有必要**  
 
 ---
 
-- best-cf-ip-scanned-top20 包含 20 个优选 IP。
+- best-cf-ip-scanned-top20 包含 20 个优选 IP
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top20.txt
 ```
 
-- best-cf-ip-scanned-top50 包含 50 个优选 IP，向上包含。
+- best-cf-ip-scanned-top50 包含 50 个优选 IP，向上包含
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top50.txt
 ```
 
-- best-cf-ip-scanned-top100 包含 100 个优选 IP，向上包含。
+- best-cf-ip-scanned-top100 包含 100 个优选 IP，向上包含
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top100.txt
 ```
 
-- best-cf-ip-scanned-top200 包含 200 个优选 IP，向上包含。
+- best-cf-ip-scanned-top200 包含 200 个优选 IP，向上包含
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top200.txt
 ```
 
-- best-cf-ip-scanned-top400 包含 400 个优选 IP，向上包含。
+- best-cf-ip-scanned-top400 包含 400 个优选 IP，向上包含
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top400.txt
