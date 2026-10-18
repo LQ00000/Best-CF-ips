@@ -1,4 +1,4 @@
-# Cloudflare 优选IP API（仅IPV4）
+# Cloudflare 优选IP API（IPV4）
 
 ## 提供自动更新的 Cloudflare 优选 IP API，服务于 Cloudflare 免费代理搭建方案，优质 IP 即为优质节点。[频道](https://t.me/liqunchannel) 置顶公益订阅，限时体验 API 效果
 
@@ -82,7 +82,7 @@
 ### 聚合 API
 
 - **每 6 小时更新**
-- 为多个公开的 Cloudflare 优选 IP 项目进行**IP 聚合&去重&加国家区域标注&加旗帜**，数据来源：[Cmliu优选](https://cf.090227.xyz)，[UOUIN](https://api.uouin.com/cloudflare.html)，[IPDB](https://ipdb.api.030101.xyz)，[VPS789](https://vps789.com/cfip/?remarks=ip)，[Senflare](https://saas.seeck.cn)，表示感谢
+- 聚合多个公开的 Cloudflare 优选 IP 项目，进行**聚合&去重&加国家区域标注&加旗帜**，数据来源：[Cmliu优选](https://cf.090227.xyz)，[UOUIN](https://api.uouin.com/cloudflare.html)，[IPDB](https://ipdb.api.030101.xyz)，[VPS789](https://vps789.com/cfip/?remarks=ip)，[Senflare](https://saas.seeck.cn)，表示感谢
 
 ```
 https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-collected.txt
