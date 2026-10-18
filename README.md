@@ -27,14 +27,27 @@
 
 ## 项目说明
 
-- 提供 “**采集聚合 优选IP API**”。
-- 提供 “**本仓独立 优选IP API**”。
-- 两类优选 IP API ，IP 内容不同，数量不同，互不相属，可同时使用。
-- 两类优选 IP API 均可接入 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel)-自定义订阅汇聚，仅需复制粘贴（无需点开“订阅接口”按钮），从而将优选 IP 转换为代理节点。建议具备一定 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel) 项目基础理解的用户使用。
-- 建议具备一定 Cloudflare 基础网络知识的用户使用。[**Cloudflare anycast IP 机制**](https://github.com/LancelotRar/best-cf-ips/issues/3#issuecomment-5508271687) ，不同运营商解析出的国家区域**可能不同**。
+- 提供 “**采集聚合 优选IP API**”
+- 提供 “**本仓独立 优选IP API**”
+- 两类优选 IP API ，IP 内容不同，数量不同，互不相属，可同时使用
+- 两类优选 IP API 均可接入 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel)-"自定义订阅汇聚"，和 [**byJoey/cfnew**](https://github.com/byJoey/cfnew) -"优选IP来源URL"，从而将优选 IP 转换为代理节点。建议具备相应项目基础的用户使用
+- 建议具备一定 Cloudflare 基础网络知识的用户使用。[**Cloudflare anycast IP 机制**](https://github.com/LancelotRar/best-cf-ips/issues/3#issuecomment-5508271687) ，不同运营商解析出的国家区域**可能不同**
 
+## 接入指南
+- **Cmliu/edgetunnel**
+    - 复制粘贴 API 地址至“自定义优选”框中（无需点开下方“订阅接口”按钮）
+    - 支持填入多个 API 地址
+    - 保存
 <p align="center">
   <img src="src/IN-EDT.png" alt="效果图">
+</p>
+
+- **byJoey/cfnew**
+    - 复制粘贴 API 地址至“优选IP来源URL”框中
+    - **<ins>仅支持填入单个 API 地址</ins>**
+    - 保存
+<p align="center">
+  <img src="src/IN-CFNEW.png" alt="效果图">
 </p>
 
 ## 项目初衷
