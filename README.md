@@ -32,7 +32,7 @@
 - 转换后的优选 IP 将成为代理节点，再经代理客户端解析，节点名称将显示**国家代码**以及**国旗**。点击图片查看清晰大图
 
 <p align="center">
-  <img src="src/phone1.png" alt="效果图" width="150" height="240"><img src="src/phone2.png" alt="效果图" width="150" height="240"><img src="src/phone3.png" alt="效果图" width="150" height="240"><img src="src/PC.png" alt="效果图" width="430" height="240">
+  <img src="src/phone1.png" alt="效果图" width="16%"> <img src="src/phone2.png" alt="效果图" width="16%"> <img src="src/phone3.png" alt="效果图" width="16%"> <img src="src/PC.png" alt="效果图" width="47%">
 </p>
 
 ## 项目说明
@@ -48,21 +48,25 @@
 - 如有帮助，请多多star
 
 ## 接入指南
-- **Cmliu/edgetunnel**
-    - 复制粘贴 API 链接至“自定义优选”框中（无需点开下方“订阅接口”按钮）
-    - **<ins>支持填入多个 API 链接</ins>**
-    - 保存
-<p align="center">
-  <img src="src/IN-EDT.png" alt="效果图" width="800" height="392">
-</p>
 
-- **byJoey/cfnew**
-    - 复制粘贴 API 链接至“优选 IP 来源 URL” 框中
-    - **<ins>仅支持填入单个 API 链接</ins>**
-    - 保存
-<p align="center">
-  <img src="src/IN-CFNEW.png" alt="效果图" width="800" height="194">
-</p>
+<table>
+  <thead>
+    <tr>
+      <th><div align="center">项目</div></th>
+      <th><div align="center">操作示意</div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="middle"><strong>Cmliu/edgetunnel</strong><br><ol><li>复制粘贴 API 链接至“自定义优选”框中（无需点开下方“订阅接口”按钮）</li><li><strong><ins>支持填入多个 API 链接</ins></strong></li><li>保存</li></ol></td>
+      <td align="center" valign="middle"><img src="src/IN-EDT.png" alt="edgetunnel 接入效果图" width="440"></td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>byJoey/cfnew</strong><br><ol><li>复制粘贴 API 链接至“优选 IP 来源 URL” 框中</li><li><strong><ins>仅支持填入单个 API 链接</ins></strong></li><li>保存</li></ol></td>
+      <td align="center" valign="middle"><img src="src/IN-CFNEW.png" alt="cfnew 接入效果图" width="440"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## API 详情
 
