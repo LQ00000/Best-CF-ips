@@ -1,10 +1,12 @@
+<div align="center">
+
 # Cloudflare 优选IP API（IPV4）
 
-## 提供自动更新的 Cloudflare 优选 IP API，服务于 Cloudflare 免费代理搭建方案，优质 IP 即为优质节点。
+### 提供自动更新的 Cloudflare 优选 IP API，服务于 Cloudflare 免费代理搭建方案，优质 IP 即为优质节点。
 
-<p align="center">
-<img src="https://badgen.net/github/stars/LancelotRar/best-cf-ips" align="absmiddle" style="height:25px"> <img src="https://badgen.net/github/forks/LancelotRar/best-cf-ips" align="absmiddle" style="height:25px"> <a href="https://t.me/liqunchannel"><img src="https://badgen.net/badge/利群便利店/频道" align="absmiddle" style="height:25px"></a>
-</p>
+<img src="https://badgen.net/github/stars/LancelotRar/best-cf-ips" align="absmiddle" style="height:20px"> <img src="https://badgen.net/github/forks/LancelotRar/best-cf-ips" align="absmiddle" style="height:20px"> <a href="https://t.me/liqunchannel"><img src="https://badgen.net/badge/利群便利店/频道" align="absmiddle" style="height:20px"></a>
+
+</div>
 
 > [!CAUTION]   
 > **破坏性更新历史，需尽快更新您的 API 链接**：    
@@ -51,7 +53,7 @@
     - **<ins>支持填入多个 API 链接</ins>**
     - 保存
 <p align="center">
-  <img src="src/IN-EDT.png" alt="效果图">
+  <img src="src/IN-EDT.png" alt="效果图" width="800" height="392">
 </p>
 
 - **byJoey/cfnew**
@@ -59,7 +61,7 @@
     - **<ins>仅支持填入单个 API 链接</ins>**
     - 保存
 <p align="center">
-  <img src="src/IN-CFNEW.png" alt="效果图">
+  <img src="src/IN-CFNEW.png" alt="效果图" width="800" height="194">
 </p>
 
 ## API 详情
