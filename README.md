@@ -58,11 +58,11 @@
   </thead>
   <tbody>
     <tr>
-      <td valign="middle"><strong>Cmliu/edgetunnel</strong><br><ol><li>复制粘贴 API 链接至“自定义优选”框中（无需点开下方“订阅接口”按钮）</li><li><strong><ins>支持填入多个 API 链接</ins></strong></li><li>保存</li></ol></td>
+      <td valign="middle"><strong>Cmliu/edgetunnel</strong><br>1. 复制粘贴 API 链接至“自定义优选”框中（无需点开下方“订阅接口”按钮）<br>2. <strong><ins>支持填入多个 API 链接</ins></strong><br>3. 保存</td>
       <td align="center" valign="middle"><img src="src/IN-EDT.png" alt="edgetunnel 接入效果图" width="440"></td>
     </tr>
     <tr>
-      <td valign="middle"><strong>byJoey/cfnew</strong><br><ol><li>复制粘贴 API 链接至“优选 IP 来源 URL” 框中</li><li><strong><ins>仅支持填入单个 API 链接</ins></strong></li><li>保存</li></ol></td>
+      <td valign="middle"><strong>byJoey/cfnew</strong><br>1. 复制粘贴 API 链接至“优选 IP 来源 URL” 框中<br>2. <strong><ins>仅支持填入单个 API 链接</ins></strong><br>3. 保存</td>
       <td align="center" valign="middle"><img src="src/IN-CFNEW.png" alt="cfnew 接入效果图" width="440"></td>
     </tr>
   </tbody>
