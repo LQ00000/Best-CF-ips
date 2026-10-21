@@ -40,7 +40,7 @@
 - 提供 “**采集聚合 优选IP API**”
 - 提供 “**本仓独立 优选IP API**”
 - 两类优选 IP API ，IP 内容不同，数量不同，互不相属，可同时使用
-- 两类优选 IP API 均可接入 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel)-"自定义订阅汇聚"，和 [**byJoey/cfnew**](https://github.com/byJoey/cfnew) -"优选IP来源URL"，从而将优选 IP 转换为代理节点。建议具备相应项目基础的用户使用
+- 两类优选 IP API 均可接入 [**Cmliu/edgetunnel**](https://github.com/cmliu/edgetunnel)-"自定义订阅汇聚"，和 [**byJoey/cfnew**](https://github.com/byJoey/cfnew) -"优选 IP 来源 URL"，从而将优选 IP 转换为代理节点。建议具备相应项目基础的用户使用
 - 建议具备一定 Cloudflare 基础网络知识的用户使用。[**Cloudflare anycast IP 机制**](https://github.com/LancelotRar/best-cf-ips/issues/3#issuecomment-5508271687) ，不同运营商解析出的国家区域**可能不同**
 - 为优选 IP 建立**国家区域、旗帜**标识，有助于按国家区域筛选 CF 节点。如使用 Mihomo 代理客户端，可按节点的国家区域建立策略组。并使用 Url-test 策略，仅在该区域内变动节点IP，缓解 CF 节点 IP 变动带来的负面影响。如 Telegram 新账号养号期，节点IP变动频繁、区域位置变动过大，或将引发账号风控。其它代理客户端同理，需自行设置。对其它有IP风控策略的互联网服务，亦有帮助
 - 优选 IP 数量不是越多越好，故另提供**按数量分档**的 API 满足多样化的需求
